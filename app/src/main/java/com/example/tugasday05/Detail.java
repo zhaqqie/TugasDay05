@@ -22,7 +22,7 @@ public class Detail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        DecimalFormat formatter = new DecimalFormat("#,###.##");
+        DecimalFormat formatter = new DecimalFormat("#,###");
 
         slmtDtg = findViewById(R.id.tvSlmtDtg);
         tipeMembership = findViewById(R.id.tvTipeMember);
@@ -44,14 +44,14 @@ public class Detail extends AppCompatActivity {
 
 
         slmtDtg.setText(getString(R.string.string_slmtdtg) + barang.getNama());
-        tipeMembership.setText(getString(R.string.string_tipemember) + barang.getTipeMember());
-        kodeBrg.setText(getString(R.string.string_kodebarang) + barang.getKodeBrg());
-        namaBrg.setText(getString(R.string.string_namabarang) + barang.getNamaBrg());
-        hargaBrg.setText(getString(R.string.string_hargabarang) + barang.getHargaBrg());
-        totHarga.setText(getString(R.string.string_tothargabrg) + formatter.format(Double.parseDouble(barang.getTotHarga())));
-        diskHarga.setText(getString(R.string.strinng_diskharga) + formatter.format(Double.parseDouble(barang.getDiskHarga())));
-        diskMember.setText(getString(R.string.string_diskmember) + formatter.format(Double.parseDouble(barang.getDiskMember())));
-        jlhBayar.setText(getString(R.string.strings_jlhbayar) + formatter.format(Double.parseDouble(barang.getJlhBayar())));
+        tipeMembership.setText(getString(R.string.string_tipemember) + " : " + barang.getTipeMember());
+        kodeBrg.setText(getString(R.string.string_kodebarang) + " : " + barang.getKodeBrg());
+        namaBrg.setText(getString(R.string.string_namabarang) + " : " + barang.getNamaBrg());
+        hargaBrg.setText(getString(R.string.string_hargabarang) + " : " + barang.getHargaBrg());
+        totHarga.setText(getString(R.string.string_tothargabrg) + " : Rp " + formatter.format(Double.parseDouble(barang.getTotHarga())));
+        diskHarga.setText(getString(R.string.strinng_diskharga) + " : Rp " + formatter.format(Double.parseDouble(barang.getDiskHarga())));
+        diskMember.setText(getString(R.string.string_diskmember) + " : Rp " + formatter.format(Double.parseDouble(barang.getDiskMember())));
+        jlhBayar.setText(getString(R.string.strings_jlhbayar) + " : Rp " + formatter.format(Double.parseDouble(barang.getJlhBayar())));
 
 
 

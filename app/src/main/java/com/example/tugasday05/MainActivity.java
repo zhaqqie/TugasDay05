@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 barang.setNama(Name.getText().toString());
                 barang.setNamaBrg("Iphone X");
                 barang.setKodeBrg("IPX");
-                barang.setHargaBrg("Rp.5.725.300");
+                barang.setHargaBrg("Rp 5,725,300");
                 barang.setTotHarga(total);
                 barang.setDiskHarga(diskonHarga);
                 barang.setDiskMember(diskonMember);
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 barang.setNama(Name.getText().toString());
                 barang.setNamaBrg("Oppo A17");
                 barang.setKodeBrg("O17");
-                barang.setHargaBrg("Rp.2.500.999");
+                barang.setHargaBrg("Rp 2,500,999");
                 barang.setTotHarga(total);
                 barang.setDiskHarga(diskonHarga);
                 barang.setDiskMember(diskonMember);
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
                 barang.setNama(Name.getText().toString());
                 barang.setNamaBrg("Macbook Pro M3");
                 barang.setKodeBrg("MP3");
-                barang.setHargaBrg("28.999.999");
+                barang.setHargaBrg("Rp 28,999,999");
                 barang.setTotHarga(total);
                 barang.setDiskHarga(diskonHarga);
                 barang.setDiskMember(diskonMember);
