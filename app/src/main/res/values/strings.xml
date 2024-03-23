@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TugasDay05</string>
+    <string name="string_masuknama">Masukkan Nama</string>
+    <string name="string_member">Membership</string>
+    <string name="string_gold">Gold</string>
+    <string name="string_silver">Silver</string>
+    <string name="string_biasa">Biasa</string>
+    <string name="string_masukkodebarang">Masukkan Kode Barang</string>
+    <string name="string_masukjlhbarang">Masukkan Jumlah Barang</string>
+    <string name="string_proses">Proses</string>
+    <string name="string_slmtdtg">"Selamat Datang "</string>
+    <string name="string_tipemember">"Tipe Membership : "</string>
+    <string name="string_kodebarang">"Kode Barang : "</string>
+    <string name="string_namabarang">"Nama Barang : "</string>
+    <string name="string_hargabarang">"Harga Barang : Rp "</string>
+    <string name="string_tothargabrg">"Total Harga Barang : Rp "</string>
+    <string name="strinng_diskharga">"Diskon Harga : Rp "</string>
+    <string name="string_diskmember">"Diskon Membership : Rp "</string>
+    <string name="strings_jlhbayar">"Jumlah Bayar : Rp "</string>
+    <string name="string_share">Share</string>
+    <string name="string_transaksi">Transaksi Hari Ini</string>
+    <string name="string_makasih">Terimakasih Telah Belanja Disini!!!</string>
+
+</resources>

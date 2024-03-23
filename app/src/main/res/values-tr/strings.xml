@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TugasDay05</string>
+    <string name="string_masuknama">isim griniz</string>
+    <string name="string_member">üyelik</string>
+    <string name="string_gold">altın</string>
+    <string name="string_silver">gümüş</string>
+    <string name="string_biasa">standart</string>
+    <string name="string_masukkodebarang">ürün kodunu girin</string>
+    <string name="string_masukjlhbarang">Öğe sayısını girin</string>
+    <string name="string_proses">işlem</string>
+    <string name="string_slmtdtg">Hoş geldin</string>
+    <string name="string_tipemember">üyelik tipi</string>
+    <string name="string_kodebarang">ürün Kodu</string>
+    <string name="string_namabarang">esyalarin adi</string>
+    <string name="string_hargabarang">malların fiyatı</string>
+    <string name="string_tothargabrg">malların toplam fiyatı</string>
+    <string name="strinng_diskharga">fiyat indirimi</string>
+    <string name="string_diskmember">üyelik indirimi</string>
+    <string name="strings_jlhbayar">ödeme miktarı</string>
+    <string name="string_share">paylaşmak</string>
+    <string name="string_transaksi">bugünkü işlem</string>
+    <string name="string_makasih">Burada alışveriş yaptığınız için teşekkür ederiz</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TugasDay05</string>
+    <string name="string_masuknama">Enter Name</string>
+    <string name="string_member">Membership</string>
+    <string name="string_gold">Gold</string>
+    <string name="string_silver">Silver</string>
+    <string name="string_biasa">Standard</string>
+    <string name="string_masukkodebarang">Insert the Item Code</string>
+    <string name="string_masukjlhbarang">Enter the Number of Items</string>
+    <string name="string_proses">Process</string>
+    <string name="string_slmtdtg">Welcome</string>
+    <string name="string_tipemember">Membership Type</string>
+    <string name="string_kodebarang">Item Code</string>
+    <string name="string_namabarang">Name of Goods</string>
+    <string name="string_hargabarang">"Price of Goods "</string>
+    <string name="string_tothargabrg">Total Price of Goods</string>
+    <string name="strinng_diskharga">"Price Discount "</string>
+    <string name="string_diskmember">Membership Discount</string>
+    <string name="strings_jlhbayar">Payment Amount</string>
+    <string name="string_share">Share</string>
+    <string name="string_transaksi">Today\'s Transaction</string>
+    <string name="string_makasih">Thank You for Shopping Here</string>
+</resources>

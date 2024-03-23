@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EADFB4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FBA834"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Zhaqqie Putra Quiz1"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:text=" "
+                android:hint="@string/string_masuknama"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string_member"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+        </TextView>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <RadioButton
+                android:id="@+id/rbGold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#E8BC37"
+                android:text="@string/string_gold"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rbSilver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#9E9797"
+                android:text="@string/string_silver"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rbBiasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#E59218"
+                android:text="@string/string_biasa"
+                >
+            </RadioButton>
+
+        </RadioGroup>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etKodeBrg"
+                android:text=" "
+                android:hint="@string/string_masukkodebarang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etJlhBrg"
+                android:text=" "
+                android:hint="@string/string_masukjlhbarang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btProses"
+            android:layout_width="224dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/string_proses"
+            android:textSize="20dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
